@@ -54,7 +54,7 @@ if [[ ${NC} == "" ]]; then
     echo -n "Please enter your Ngrok Auth Token: "
     read TOKEN
     ./ngrok authtoken ${TOKEN}
-    .token
+    echo "1" > .token
   fi
 fi
 
